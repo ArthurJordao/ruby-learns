@@ -6,6 +6,7 @@ in with pkgs;
 mkShell {
   buildInputs = [
     niv.niv
+    pkgs.sqlite
     pkgs.ruby
     pkgs.nodejs
     pkgs.yarn
