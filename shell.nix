@@ -6,5 +6,6 @@ in with pkgs;
 mkShell {
   buildInputs = [
     niv.niv
+    pkgs.ruby
   ];
 }
