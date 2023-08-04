@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Set up
 
-Things you may want to cover:
+``` sh
+> cd ruby-learns # enter this directory
+> direnv allow # let direnv load the nix environment. go and make some coffee
+> bundle install --path=.bundle # install ruby gems. go and drink that coffee
+```
 
-* Ruby version
+## Running the app
 
-* System dependencies
+Just run `rails s` and then visit http://localhost:3000!
 
-* Configuration
+All executables you may need (`rails`, `rake`, `sqlite3`, `yarn`) should already be available in your shell.
 
-* Database creation
+## Inspecting the DB
 
-* Database initialization
+This app uses SQLite, which keeps all the database in a single file. The DB used here for development lives in `db/development.sqlite3`.
 
-* How to run the test suite
+You should be able to open that in a database client like [TablePlus](https://tableplus.com/) and inspect the state of the database.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Adding gems to the project
 
-* Deployment instructions
-
-* ...
+Just add them in the Gemfile and then run `bundle`!
