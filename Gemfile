@@ -65,6 +65,7 @@ group :development do
   # Sorbet
   gem "sorbet"
   gem "tapioca", require: false
+  gem 'spoom'
 end
 
 group :test do
