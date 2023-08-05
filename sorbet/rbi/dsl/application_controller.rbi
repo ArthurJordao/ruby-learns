@@ -25,6 +25,7 @@ class ApplicationController
     include ::Importmap::ImportmapTagsHelper
     include ::ActionController::Base::HelperMethods
     include ::ApplicationHelper
+    include ::UsersHelper
   end
 
   class HelperProxy < ::ActionView::Base

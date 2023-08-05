@@ -12,6 +12,7 @@ dsl:
   - ActiveJob
   - ActiveRecordAssociations
   - ActiveRecordRelations
+  - ActiveRecordColumns
   - ActiveStorage
   - ActiveSupportCurrentAttributes
   - MixedInClassAttributes
