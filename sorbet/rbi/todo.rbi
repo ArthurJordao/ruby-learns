@@ -4,18 +4,43 @@
 
 # typed: false
 
-module ; end
-module ; end
-module ; end
-module --version      Show version.; end
-module -h, --help     View help for this subcommand.; end
-module A type checker for Ruby; end
-module For full help:; end
-module Options:; end
-module Unknown subcommand `--print=missing-constants`; end
-module Usage:; end
-module https://sorbet.org; end
-module srb                                 Same as "srb t"; end
-module srb (init | initialize)             Initializes the `sorbet` directory; end
-module srb (t | tc | typecheck) [options]  Typechecks the code; end
-module srb rbi [options]                   Manage the `sorbet` directory; end
+module ::AbstractController::Base; end
+module ::ActionCable::Connection::TestCase; end
+module ::ActiveJob::Base; end
+module ::DateAndTime::Calculations; end
+module ::DateAndTime::Zones; end
+module ActionController::Base; end
+module ActionController::MimeResponds::Collector; end
+module ActionDispatch::Flash::FlashHash; end
+module ActionDispatch::Http::Headers; end
+module ActionDispatch::IntegrationTest::Rack::Test::CookieJar; end
+module ActionDispatch::Request::Session; end
+module ActionDispatch::Response; end
+module ActionDispatch::Response::Header; end
+module ActionDispatch::SystemTestCase; end
+module ActionDispatch::TestRequest; end
+module ActionDispatch::TestResponse; end
+module ActionMailer::Base::Mail::Message; end
+module ActionView::ActionViewError; end
+module ActionView::Base; end
+module ActionView::Helpers::SanitizeHelper::ClassMethods; end
+module ActionView::Helpers::TagHelper; end
+module ActionView::Helpers::UrlHelper::ClassMethods; end
+module ActionView::Layouts::ClassMethods; end
+module ActionView::Rendering::ClassMethods; end
+module ActionView::Template::Error; end
+module ActiveModel::Error; end
+module ActiveRecord::ConnectionAdapters::DatabaseStatements; end
+module ActiveRecord::ConnectionAdapters::SchemaStatements; end
+module ActiveSupport::ArrayInquirer; end
+module ActiveSupport::BacktraceCleaner; end
+module ActiveSupport::Cache::Store; end
+module ActiveSupport::Concern; end
+module ActiveSupport::HashWithIndifferentAccess; end
+module ActiveSupport::Logger; end
+module ActiveSupport::Reloader; end
+module ActiveSupport::SafeBuffer; end
+module ActiveSupport::TaggedLogging; end
+module ApplicationCable::ActionCable::Channel::Base; end
+module ApplicationCable::ActionCable::Connection::Base; end
+module GlobalID::Identification::SignedGlobalID; end

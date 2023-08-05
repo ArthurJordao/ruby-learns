@@ -8,6 +8,11 @@ gem:
 dsl:
   # Add your `dsl` command parameters here:
   #
-  # exclude:
-  # - SomeGeneratorName
+  exclude:
+  - ActiveJob
+  - ActiveRecordAssociations
+  - ActiveRecordRelations
+  - ActiveStorage
+  - ActiveSupportCurrentAttributes
+  - MixedInClassAttributes
   # workers: 5
