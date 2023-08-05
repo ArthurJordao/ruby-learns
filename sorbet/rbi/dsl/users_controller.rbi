@@ -22,6 +22,7 @@ class UsersController
     include ::Importmap::ImportmapTagsHelper
     include ::ActionController::Base::HelperMethods
     include ::ApplicationHelper
+    include ::MicropostsHelper
     include ::UsersHelper
   end
 

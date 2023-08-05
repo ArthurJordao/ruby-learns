@@ -9,10 +9,22 @@ module GeneratedPathHelpersModule
   include ::ActionDispatch::Routing::PolymorphicRoutes
 
   sig { params(args: T.untyped).returns(String) }
+  def edit_micropost_path(*args); end
+
+  sig { params(args: T.untyped).returns(String) }
   def edit_rails_conductor_inbound_email_path(*args); end
 
   sig { params(args: T.untyped).returns(String) }
   def edit_user_path(*args); end
+
+  sig { params(args: T.untyped).returns(String) }
+  def micropost_path(*args); end
+
+  sig { params(args: T.untyped).returns(String) }
+  def microposts_path(*args); end
+
+  sig { params(args: T.untyped).returns(String) }
+  def new_micropost_path(*args); end
 
   sig { params(args: T.untyped).returns(String) }
   def new_rails_conductor_inbound_email_path(*args); end
@@ -97,6 +109,9 @@ module GeneratedPathHelpersModule
 
   sig { params(args: T.untyped).returns(String) }
   def rails_storage_redirect_path(*args); end
+
+  sig { params(args: T.untyped).returns(String) }
+  def root_path(*args); end
 
   sig { params(args: T.untyped).returns(String) }
   def turbo_recede_historical_location_path(*args); end
