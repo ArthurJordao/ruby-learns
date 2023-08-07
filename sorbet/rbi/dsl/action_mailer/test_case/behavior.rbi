@@ -5,5 +5,20 @@
 # Please instead update this file by running `bin/tapioca dsl ActionMailer::TestCase::Behavior`.
 
 module ActionMailer::TestCase::Behavior
+  include GeneratedInstanceMethods
+
   mixes_in_class_methods ::ActiveSupport::Testing::ConstantLookup::ClassMethods
+  mixes_in_class_methods GeneratedClassMethods
+
+  module GeneratedClassMethods
+    def _mailer_class; end
+    def _mailer_class=(value); end
+    def _mailer_class?; end
+  end
+
+  module GeneratedInstanceMethods
+    def _mailer_class; end
+    def _mailer_class=(value); end
+    def _mailer_class?; end
+  end
 end

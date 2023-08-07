@@ -5,5 +5,24 @@
 # Please instead update this file by running `bin/tapioca dsl ActiveModel::Dirty`.
 
 module ActiveModel::Dirty
+  include GeneratedInstanceMethods
+
   mixes_in_class_methods ::ActiveModel::AttributeMethods::ClassMethods
+  mixes_in_class_methods GeneratedClassMethods
+
+  module GeneratedClassMethods
+    def attribute_aliases; end
+    def attribute_aliases=(value); end
+    def attribute_aliases?; end
+    def attribute_method_matchers; end
+    def attribute_method_matchers=(value); end
+    def attribute_method_matchers?; end
+  end
+
+  module GeneratedInstanceMethods
+    def attribute_aliases; end
+    def attribute_aliases?; end
+    def attribute_method_matchers; end
+    def attribute_method_matchers?; end
+  end
 end

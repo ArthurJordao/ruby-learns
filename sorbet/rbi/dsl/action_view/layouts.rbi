@@ -5,6 +5,20 @@
 # Please instead update this file by running `bin/tapioca dsl ActionView::Layouts`.
 
 module ActionView::Layouts
+  include GeneratedInstanceMethods
+
   mixes_in_class_methods ::ActionView::ViewPaths::ClassMethods
   mixes_in_class_methods ::ActionView::Rendering::ClassMethods
+  mixes_in_class_methods GeneratedClassMethods
+
+  module GeneratedClassMethods
+    def _layout; end
+    def _layout=(value); end
+    def _layout?; end
+    def _layout_conditions; end
+    def _layout_conditions=(value); end
+    def _layout_conditions?; end
+  end
+
+  module GeneratedInstanceMethods; end
 end
