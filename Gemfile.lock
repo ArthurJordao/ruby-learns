@@ -134,6 +134,7 @@ GEM
     parser (3.2.2.3)
       ast (~> 2.4.1)
       racc
+    prettier_print (1.2.1)
     public_suffix (5.0.3)
     puma (5.6.6)
       nio4r (~> 2.0)
@@ -191,9 +192,11 @@ GEM
     sorbet-static-and-runtime (0.5.10950)
       sorbet (= 0.5.10950)
       sorbet-runtime (= 0.5.10950)
-    spoom (1.1.16)
+    spoom (1.2.2)
+      erubi (>= 1.10.0)
       sorbet (>= 0.5.10187)
       sorbet-runtime (>= 0.5.9204)
+      syntax_tree (>= 6.1.1)
       thor (>= 0.19.2)
     sprockets (4.2.0)
       concurrent-ruby (~> 1.0)
@@ -205,13 +208,15 @@ GEM
     sqlite3 (1.6.3-arm64-darwin)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
-    tapioca (0.11.2)
-      bundler (>= 1.17.3)
+    syntax_tree (6.1.1)
+      prettier_print (>= 1.2.0)
+    tapioca (0.11.8)
+      bundler (>= 2.2.25)
       netrc (>= 0.11.0)
       parallel (>= 1.21.0)
       rbi (~> 0.0.0, >= 0.0.16)
       sorbet-static-and-runtime (>= 0.5.10187)
-      spoom (~> 1.1.0, >= 1.1.11)
+      spoom (~> 1.2.0, >= 1.2.0)
       thor (>= 1.2.0)
       yard-sorbet
     thor (1.2.2)
@@ -260,11 +265,10 @@ DEPENDENCIES
   selenium-webdriver
   sorbet
   sorbet-runtime
-  spoom
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
-  tapioca
+  tapioca (~> 0.11.8)
   turbo-rails
   tzinfo-data
   web-console
