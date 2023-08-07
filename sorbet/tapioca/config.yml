@@ -9,11 +9,5 @@ dsl:
   # Add your `dsl` command parameters here:
   #
   # exclude:
-  # - ActiveJob
-  # - ActiveRecordAssociations
-  # - ActiveRecordRelations
-  # - ActiveRecordColumns
-  # - ActiveStorage
-  # - ActiveSupportCurrentAttributes
-  # - MixedInClassAttributes
+  # - SomeGeneratorName
   # workers: 5
